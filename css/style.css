@@ -1,0 +1,25 @@
+.thin-bar {
+    border-bottom: 5px solid #8427ba;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 190px;
+    height: 290px;
+    border: solid;
+    color: blueviolet;
+}
+
+.parallax-container{
+    height: 700px
+}
+
+.raise:hover,
+.raise:focus {
+  transform: translateY(-0.35em);
+}
+
+#about {
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
