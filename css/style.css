@@ -1,17 +1,17 @@
 .thin-bar {
-    border-bottom: 5px solid #8427ba;
+    border-bottom: 7px solid #8427ba;
 }
 
 .img-circle {
     border-radius: 50%;
-    width: 190px;
-    height: 290px;
+    width: 150px;
+    height: 250px;
     border: solid;
     color: blueviolet;
 }
 
 .parallax-container{
-    height: 700px
+    height: 660px
 }
 
 .raise:hover,
@@ -22,4 +22,46 @@
 #about {
     padding-bottom: 1em;
     padding-top: 1em;
+}
+
+#about .details {
+    margin-top: 1em;
+}
+.ab {
+    //background: white;
+    color: #8427ba;
+    font-size: 42px;
+}
+#about h2 {
+    color: #fff;
+    font-size: 2.9em;
+    padding-bottom: 0.8em;
+}
+
+/* Cp */
+.my-button {
+    font-size: 1em;
+    line-height: normal;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out, color 0.2s 0.3s;
+    border-radius: 45px;
+    height: auto;
+    padding: 1em 2.9em;
+}
+
+.my-button:hover {
+    cursor: pointer;
+    padding: 1em 3.9em;
+}
+
+.my-button:active,
+.my-button:focus,
+.my-button.active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
