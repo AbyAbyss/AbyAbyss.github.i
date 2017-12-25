@@ -3,6 +3,14 @@
 }
 
 .img-circle {
+    //border-radius: 50%;
+    width: 150px;
+    height: 250px;
+    border: solid;
+    color: blueviolet;
+}
+
+.circle {
     border-radius: 50%;
     width: 150px;
     height: 250px;
