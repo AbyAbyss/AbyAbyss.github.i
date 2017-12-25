@@ -1,13 +1,12 @@
- // for parallax background
-      $(document).ready(function () {
-        // for parallax background
-        $('.parallax').parallax();
-        // animate on startup
-        $('.font_animL').addClass("animated bounceInLeft");
-        $('.font_animR').addClass("animated bounceInRight");
-        $('.my-button').addClass("animated swing");
-        $('.img-circle').addClass("animated fadeInDown")
-      });
+$(document).ready(function () {
+    // for parallax background
+    $('.parallax').parallax();
+    // animate on startup
+    $('.font_animL').addClass("animated bounceInLeft");
+    $('.font_animR').addClass("animated bounceInRight");
+    $('.my-button').addClass("animated swing");
+    $('.img-circle').addClass("animated fadeInDown")
+});
 
 
 const Portfolio = function() {
