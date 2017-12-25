@@ -4,7 +4,7 @@ $(document).ready(function () {
     // animate on startup
     $('.font_animL').addClass("animated bounceInLeft");
     $('.font_animR').addClass("animated bounceInRight");
-    $('.my-button').addClass("animated swing");
+    //$('.my-button').addClass("animated swing");
     $('.img-circle').addClass("animated fadeInDown")
 });
 
