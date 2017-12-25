@@ -12,11 +12,13 @@
 
 .circle {
     /*border-radius: 50%;*/
-    max-width: 150px;
+    max-width: 10em;
     /*height: 250px;*/
-    //border: solid;
-    //color: blueviolet;
+    border: solid;
+    color: blueviolet;
 }
+
+
 
 .parallax-container{
     height: 660px
