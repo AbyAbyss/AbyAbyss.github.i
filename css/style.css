@@ -27,11 +27,11 @@
 #about .details {
     margin-top: 1em;
 }
-.ab {
-    //background: white;
+/*.ab {
+    background: white;
     color: #8427ba;
     font-size: 42px;
-}
+}*/
 #about h2 {
     color: #fff;
     font-size: 2.9em;
@@ -65,3 +65,20 @@
     -webkit-box-shadow: none;
     box-shadow: none;
 }
+
+
+.typed-cursor {
+        opacity: 1;
+        animation: blink .7s infinite;
+}
+    @keyframes blink {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }

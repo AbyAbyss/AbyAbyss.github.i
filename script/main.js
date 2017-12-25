@@ -2,6 +2,9 @@
       $(document).ready(function () {
         // for parallax background
         $('.parallax').parallax();
+        // animate on startup
+        
+        
       });
 
 
@@ -18,6 +21,7 @@ const Portfolio = function() {
             contentType: 'text',
             callback: function() {
                 $("#writing-text").css({ "color": "#fff", "background-color": "#774296"});
+                $(".depth").addClass("z-depth-2 hoverable");
             },
             preStringTyped: function() {},
             onStringTyped: function() {}
