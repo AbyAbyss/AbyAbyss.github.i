@@ -1,6 +1,13 @@
 $(document).ready(function () {
+    /* for materilize */
     // for parallax background
     $('.parallax').parallax();
+    //carousel
+    //$('.carousel').carousel();
+     $('.carousel.carousel-slider').carousel();
+     
+    // slider
+    $('.slider').slider();
     // animate on startup
     $('.font_animL').addClass("animated bounceInLeft");
     $('.font_animR').addClass("animated bounceInRight");
