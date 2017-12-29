@@ -41,7 +41,7 @@ i:hover {
     border-bottom-right-radius:30%;
     border-bottom-left-radius:100%;
     border-top-right-radius:100%;
-    border-top-left-radius:3%;
+    border-top-left-radius:30%;
 }
 .work{
     padding-top: 7% !important;
