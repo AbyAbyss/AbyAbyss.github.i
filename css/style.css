@@ -1,21 +1,44 @@
 .thin-bar {
-    border-bottom: 7px solid #8427ba;
+    border-bottom: 7px solid #673ab7;
 }
 
 .circle {
     /*border-radius: 50%;*/
     max-width: 10em;
     border: solid;
-    color: blueviolet;
+    color: #673ab7;
 }
 
 .parallax-container{
-    height: 660px
+    height: 660px;
+    border-bottom-left-radius: 7%;
+    border-bottom-right-radius: 7%;
 }
-
+.edge{
+    border-radius: 15%;
+    border-style: solid;
+    border-color: #746e7e;
+}
+i:hover {
+    color:#fff  !important;
+}
 .raise:hover,
 .raise:focus {
   transform: translateY(-0.35em);
+}
+.design img {
+    border-radius:2%;
+    border-top-left-radius: 0%;
+}
+.design{
+    padding-top: 0%;
+    border-bottom-right-radius:30%;
+    border-bottom-left-radius:100%;
+    border-top-right-radius:100%;
+}
+.work{
+    padding-top: 7% !important;
+    font-sze: 1.5em
 }
 
 #about {
@@ -28,7 +51,7 @@
 }
 /*.ab {
     background: white;
-    color: #8427ba;
+    color: #b71c1c ;
     font-size: 42px;
 }*/
 #about h2 {

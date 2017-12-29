@@ -5,9 +5,10 @@ $(document).ready(function () {
     //carousel
     //$('.carousel').carousel();
      $('.carousel.carousel-slider').carousel();
-     
     // slider
     $('.slider').slider();
+    // Collapsible
+    $('.collapsible').collapsible();
     // animate on startup
     $('.font_animL').addClass("animated bounceInLeft");
     $('.font_animR').addClass("animated bounceInRight");
@@ -28,8 +29,8 @@ const Portfolio = function() {
             typeSpeed: 1,
             contentType: 'text',
             callback: function() {
-                $("#writing-text").css({ "color": "#fff", "background-color": "#774296"});
-                $(".depth").addClass("z-depth-2 hoverable");
+                $("#writing-text").css({ "color": "#fff", "background-color": "#673ab7 "});
+                $(".depth").addClass("z-depth-2 hoverable white deep-purple-text");
             },
             preStringTyped: function() {},
             onStringTyped: function() {}
