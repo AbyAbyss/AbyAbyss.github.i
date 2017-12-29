@@ -4,7 +4,12 @@ $(document).ready(function () {
     $('.parallax').parallax();
     //carousel
     //$('.carousel').carousel();
-     $('.carousel.carousel-slider').carousel();
+    $('.carousel.carousel-slider').carousel();
+    autoplay()
+    function autoplay() {
+        $('.carousel').carousel('next');
+        setTimeout(autoplay, 4500);
+    }
     // slider
     $('.slider').slider();
     // Collapsible
@@ -17,23 +22,23 @@ $(document).ready(function () {
 });
 
 
-const Portfolio = function() {
+const Portfolio = function () {
     function typeAnimation() {
         Typed.new("#writing-text", {
             strings: [
-                "am a Developer.", "love everything about code.", "solve problems.","love to work with you"
+                "am a Developer.", "love everything about code.", "solve problems.", "love to work with you"
             ],
             // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
             stringsElement: null,
             // typing speed
             typeSpeed: 1,
             contentType: 'text',
-            callback: function() {
-                $("#writing-text").css({ "color": "#fff", "background-color": "#673ab7 "});
+            callback: function () {
+                $("#writing-text").css({ "color": "#fff", "background-color": "#673ab7 " });
                 $(".depth").addClass("z-depth-2 hoverable white deep-purple-text");
             },
-            preStringTyped: function() {},
-            onStringTyped: function() {}
+            preStringTyped: function () { },
+            onStringTyped: function () { }
         });
     }
     return {

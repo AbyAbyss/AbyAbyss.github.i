@@ -1,3 +1,6 @@
+body{
+    margin-bottom:500px;
+}
 .thin-bar {
     border-bottom: 7px solid #673ab7;
 }
@@ -28,19 +31,24 @@ i:hover {
 }
 .design img {
     border-radius:2%;
-    border-top-left-radius: 0%;
+}
+.ground{
+    padding-bottom: 3%;
 }
 .design{
     padding-top: 0%;
+    padding-bottom: 5%;
     border-bottom-right-radius:30%;
     border-bottom-left-radius:100%;
     border-top-right-radius:100%;
+    border-top-left-radius:3%;
 }
 .work{
     padding-top: 7% !important;
-    font-sze: 1.5em
 }
-
+.work-row{
+    margin-bottom: 5%;
+}
 #about {
     padding-bottom: 1em;
     padding-top: 1em;
