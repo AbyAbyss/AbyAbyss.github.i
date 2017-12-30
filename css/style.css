@@ -28,10 +28,11 @@ i:hover {
 .raise:hover,
 .raise:focus {
   transform: translateY(-0.35em);
+  background-color: #fff !important;
+  color: #673ab7 !important;
 }
-.design img {
-    border-radius:2%;
-}
+
+
 .ground{
     padding-bottom: 3%;
 }
@@ -43,8 +44,23 @@ i:hover {
     border-top-right-radius:100%;
     border-top-left-radius:30%;
 }
+.design2{
+    padding-top: 0%;
+    padding-bottom: 5%;
+    border-bottom-right-radius:100%;
+    border-bottom-left-radius:30%;
+    border-top-right-radius:30%;
+    border-top-left-radius:100%;
+}
+.design img {
+    border-radius:2%;
+}
+.design2 img {
+    border-radius:2%;
+}
+
 .work{
-    padding-top: 7% !important;
+    padding-top: 3% !important;
 }
 .work-row{
     margin-bottom: 5%;
