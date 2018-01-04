@@ -39,7 +39,7 @@ i:hover {
 .design{
     padding-top: 0%;
     padding-bottom: 5%;
-    border-bottom-right-radius:30%;
+    border-bottom-right-radius:50%;
     border-bottom-left-radius:100%;
     border-top-right-radius:100%;
     border-top-left-radius:30%;
@@ -48,7 +48,7 @@ i:hover {
     padding-top: 0%;
     padding-bottom: 5%;
     border-bottom-right-radius:100%;
-    border-bottom-left-radius:30%;
+    border-bottom-left-radius:50%;
     border-top-right-radius:30%;
     border-top-left-radius:100%;
 }
