@@ -18,7 +18,7 @@ $(document).ready(function () {
     $('.font_animL').addClass("animated bounceInLeft");
     $('.font_animR').addClass("animated bounceInRight");
     $('.my-button').addClass("animated fadeInLeft");
-    $('.circle').addClass("animated fadeInDown")
+    $('.circle').addClass("animated fadeInDown");
 });
 
 
