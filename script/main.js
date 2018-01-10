@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(window).ready(function () {
     /* for materilize */
     // for parallax background
     $('.parallax').parallax();
