@@ -2,14 +2,6 @@ $(document).ready(function () {
     /* for materilize */
     // for parallax background
     $('.parallax').parallax();
-    //carousel
-    //$('.carousel').carousel();
-    $('.carousel.carousel-slider').carousel();
-    autoplay()
-    function autoplay() {
-        $('.carousel').carousel('next');
-        setTimeout(autoplay, 4500);
-    }
     // slider
     $('.slider').slider();
     // Collapsible
