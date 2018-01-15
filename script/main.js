@@ -11,9 +11,8 @@ $(window).ready(function () {
     $('.font_animR').addClass("animated bounceInRight");
     $('.cta-button').addClass("animated fadeInLeft");
     $('.circle').addClass("animated fadeInDown");
+    
 });
-
-
 const Portfolio = function () {
     function typeAnimation() {
         Typed.new("#writing-text", {
@@ -40,3 +39,10 @@ const Portfolio = function () {
 }();
 
 Portfolio.typeAnimation();
+new WOW().init();
+$('.left_big').addClass("wow fadeInLeftBig");
+$('.right_big').addClass("wow fadeInRightBig");
+$('.fInUp').addClass("wow fadeInUp");
+$('.rubber').addClass("wow rubberBand");
+$('.zoom').addClass("wow zoomIn");
+$('hr').addClass("wow fadeInRight z-depth-4")

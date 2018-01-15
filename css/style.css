@@ -1,3 +1,6 @@
+CSS .wow { 
+    visibility: hidden; 
+}
 .thin-bar {
     border-bottom: 7px solid #673ab7;
 }
@@ -22,11 +25,13 @@
 i:hover {
     color:#fff  !important;
 }
-.raise:hover,
-.raise:focus {
+.raise:hover{
   transform: translateY(-0.35em);
   background-color: #fff !important;
   color: #673ab7 !important;
+}
+.raise:focus {
+  outline: none;
 }
 .ground{
     padding-bottom: 3%;
@@ -106,7 +111,7 @@ i:hover {
 }
 
 
-/*** Experience ***/
+
 #experience {
     padding: 6em 4em 5.6em;
 }
